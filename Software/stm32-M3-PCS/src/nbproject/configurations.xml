@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>PCSCan.cpp</in>
+      <in>anain.cpp</in>
+      <in>chargercan.cpp</in>
+      <in>crc8.cpp</in>
+      <in>digio.cpp</in>
+      <in>errormessage.cpp</in>
+      <in>foc.cpp</in>
+      <in>fu.cpp</in>
+      <in>hwinit.cpp</in>
+      <in>linbus.cpp</in>
+      <in>main.cpp</in>
+      <in>my_fp.c</in>
+      <in>my_string.c</in>
+      <in>param_save.cpp</in>
+      <in>params.cpp</in>
+      <in>picontroller.cpp</in>
+      <in>printf.cpp</in>
+      <in>sine_core.cpp</in>
+      <in>stm32_can.cpp</in>
+      <in>stm32scheduler.cpp</in>
+      <in>terminal.cpp</in>
+      <in>terminal_prj.cpp</in>
+      <in>terminalcommands.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>../include/PCSCan.h</itemPath>
+    <itemPath>../include/anain.h</itemPath>
+    <itemPath>../include/anain_prj.h</itemPath>
+    <itemPath>../include/chargercan.h</itemPath>
+    <itemPath>../include/crc8.h</itemPath>
+    <itemPath>../include/delay.h</itemPath>
+    <itemPath>../include/digio.h</itemPath>
+    <itemPath>../include/digio_prj.h</itemPath>
+    <itemPath>../include/errormessage.h</itemPath>
+    <itemPath>../include/errormessage_prj.h</itemPath>
+    <itemPath>../include/foc.h</itemPath>
+    <itemPath>../include/fu.h</itemPath>
+    <itemPath>../include/hwdefs.h</itemPath>
+    <itemPath>../include/hwinit.h</itemPath>
+    <itemPath>../include/linbus.h</itemPath>
+    <itemPath>../include/my_fp.h</itemPath>
+    <itemPath>../include/my_math.h</itemPath>
+    <itemPath>../include/my_string.h</itemPath>
+    <itemPath>../include/param_prj.h</itemPath>
+    <itemPath>../include/param_save.h</itemPath>
+    <itemPath>../include/params.h</itemPath>
+    <itemPath>../include/picontroller.h</itemPath>
+    <itemPath>../include/printf.h</itemPath>
+    <itemPath>../include/sine_core.h</itemPath>
+    <itemPath>../include/stm32_can.h</itemPath>
+    <itemPath>../include/stm32_loader.h</itemPath>
+    <itemPath>../include/stm32scheduler.h</itemPath>
+    <itemPath>../include/terminal.h</itemPath>
+    <itemPath>../include/terminalcommands.h</itemPath>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>../Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>..</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="../include/PCSCan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/anain.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/anain_prj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/chargercan.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/crc8.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/delay.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/digio.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/digio_prj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/errormessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/errormessage_prj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/foc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/fu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/hwdefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/hwinit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/linbus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/my_fp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/my_math.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/my_string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/param_prj.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/param_save.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/params.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/picontroller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/printf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/sine_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/stm32_can.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/stm32_loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/stm32scheduler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/terminal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../include/terminalcommands.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PCSCan.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="anain.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="chargercan.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="crc8.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="digio.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="errormessage.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="foc.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="fu.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="hwinit.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="linbus.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="my_fp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="my_string.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="param_save.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="params.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="picontroller.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="printf.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="sine_core.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="stm32_can.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="stm32scheduler.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="terminal.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="terminal_prj.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+      <item path="terminalcommands.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

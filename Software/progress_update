@@ -1,0 +1,14 @@
+The latest version of Arduino FW, it is able to read HV voltage correctly and report 299.6V.
+The main source of issue at the moment seems to be LV voltage, for which error 67-DCDC-LV-Rationality is continuously reported. 
+- update: after fixing LV voltage to 14.5 volts, error 67 is resolved
+- update: CAN rationality error for message 819 was resolved by increasing length to 5
+
+
+Observations:
+- It is advised to first enable PCS ('e') and then enable DCDC ('f') within a short time span.
+- There are several errors that show up, but consistent error at the moment is 67-DCDC-LV-Rationality
+
+
+AI:
+- Use SavvyCan together with Can DBC database for Tesla Model 3 to decode all messages on IPC CAN and possibly figure out what's wrong with PCS
+- 

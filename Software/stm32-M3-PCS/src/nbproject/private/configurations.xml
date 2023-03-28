@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>PCSCan.cpp</in>
+      <in>anain.cpp</in>
+      <in>chargercan.cpp</in>
+      <in>crc8.cpp</in>
+      <in>digio.cpp</in>
+      <in>errormessage.cpp</in>
+      <in>foc.cpp</in>
+      <in>fu.cpp</in>
+      <in>hwinit.cpp</in>
+      <in>linbus.cpp</in>
+      <in>main.cpp</in>
+      <in>my_fp.c</in>
+      <in>my_string.c</in>
+      <in>param_save.cpp</in>
+      <in>params.cpp</in>
+      <in>picontroller.cpp</in>
+      <in>printf.cpp</in>
+      <in>sine_core.cpp</in>
+      <in>stm32_can.cpp</in>
+      <in>stm32scheduler.cpp</in>
+      <in>terminal.cpp</in>
+      <in>terminal_prj.cpp</in>
+      <in>terminalcommands.cpp</in>
+    </df>
+    <itemPath>../include/PCSCan.h</itemPath>
+    <itemPath>../include/anain.h</itemPath>
+    <itemPath>../include/anain_prj.h</itemPath>
+    <itemPath>../include/chargercan.h</itemPath>
+    <itemPath>../include/crc8.h</itemPath>
+    <itemPath>../include/delay.h</itemPath>
+    <itemPath>../include/digio.h</itemPath>
+    <itemPath>../include/digio_prj.h</itemPath>
+    <itemPath>../include/errormessage.h</itemPath>
+    <itemPath>../include/errormessage_prj.h</itemPath>
+    <itemPath>../include/foc.h</itemPath>
+    <itemPath>../include/fu.h</itemPath>
+    <itemPath>../include/hwdefs.h</itemPath>
+    <itemPath>../include/hwinit.h</itemPath>
+    <itemPath>../include/linbus.h</itemPath>
+    <itemPath>../include/my_fp.h</itemPath>
+    <itemPath>../include/my_math.h</itemPath>
+    <itemPath>../include/my_string.h</itemPath>
+    <itemPath>../include/param_prj.h</itemPath>
+    <itemPath>../include/param_save.h</itemPath>
+    <itemPath>../include/params.h</itemPath>
+    <itemPath>../include/picontroller.h</itemPath>
+    <itemPath>../include/printf.h</itemPath>
+    <itemPath>../include/sine_core.h</itemPath>
+    <itemPath>../include/stm32_can.h</itemPath>
+    <itemPath>../include/stm32_loader.h</itemPath>
+    <itemPath>../include/stm32scheduler.h</itemPath>
+    <itemPath>../include/terminal.h</itemPath>
+    <itemPath>../include/terminalcommands.h</itemPath>
+  </logicalFolder>
+  <projectmakefile>../Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>..</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

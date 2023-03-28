@@ -176,8 +176,6 @@ void PCSCan::handle3A4(uint32_t data[2])  //PCS Alert Matrix
     uint8_t* bytes = (uint8_t*)data;
     PCSAlertPage = bytes[0]&0xf;
 
-
-
 }
 
 void PCSCan::handle424(uint32_t data[2])  //PCS Alert Log
@@ -373,6 +371,7 @@ void PCSCan::Msg2B2(uint16_t Charger_Power)
    bytes[1]=PCS_Power_Req >> 8;
    if(DigIo::chena_out.Get()) bytes[2]=0x00;//Set charger disabled.
    if(!DigIo::chena_out.Get()) bytes[0]=0x02;//Set charger enabled.
+                              //FIXME? shouldn't this be bytes[2]???? //fhessar
    bytes[3]=0x00;
    bytes[4]=0x00;
    Can::GetInterface(0)->Send(0x2B2, (uint32_t*)bytes,5);
@@ -537,8 +536,8 @@ static void ProcessCANRat(uint16_t AlertCANId,uint8_t AlertRxError)
         switch (AlertCANId)
     {
     case 0x2B2:
-    if(AlertRxError==0x2) Short2B2=true;//msg 0x2B2 is too short so change to long.
-    if(AlertRxError==0x1) Short2B2=false;//msg 0x2B2 is too long so change to short.
+    if(AlertRxError==0x2) Short2B2=true;//msg 0x2B2 is too short?? so change to long.
+    if(AlertRxError==0x1) Short2B2=false;//msg 0x2B2 is too long?? so change to short.
     break;
 
     default:
