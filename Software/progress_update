@@ -6,7 +6,7 @@ The main source of issue at the moment seems to be LV voltage, for which error 6
 
 Observations:
 - It is advised to first enable PCS ('e') and then enable DCDC ('f') within a short time span.
-- There are several errors that show up, but consistent error at the moment is 67-DCDC-LV-Rationality
+- Currently there are two consistent errors: 24, 207. However, DC-DC conversion works even with these errors present. It reports ~3A for DC/Dc, but that is not what I am measuring. I measure ~200mA getting pumped into 12V battery!!! This is to be tested again with a good HV and LV battery. It might have to do with the remaining error messages, or because of using poor battery or incorrect settings (see all CAN messages, there is 13V fuse voltage which I don't know what it is).
 
 Strange observation:
 - Original Damien's code uses DCDC and CHARGE enable lines as active-low. However, as soon as I enable PCS, w/o enabling DC/CHG functions, I get following errors: DCDCEnableLineMismatch, CHGENABLELINEMISMATCH. By making them active HIGH, this error goes away!!!!
