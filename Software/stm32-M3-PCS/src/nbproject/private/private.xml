@@ -7,4 +7,19 @@
         <activeConfTypeElem>0</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/src/params.cpp</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/src/stm32_can.cpp</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/include/params.h</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/src/PCSCan.cpp</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/include/digio.h</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/include/PCSCan.h</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/src/main.cpp</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/include/param_prj.h</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/src/digio.cpp</file>
+            <file>file:/home/farzad/Desktop/EV-conversion/PCS/Software/stm32-M3-PCS/include/digio_prj.h</file>
+        </group>
+    </open-files>
 </project-private>

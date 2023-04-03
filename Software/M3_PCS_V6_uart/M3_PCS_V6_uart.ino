@@ -166,8 +166,8 @@ void loop()
 //      Msgs100ms();
 //    }
     digitalWrite(PCS_ENABLE, PCSact ? HIGH : LOW); //set PCS enable line low/high
-    digitalWrite(PWM_DCDC, (DCDCact & PCSact) ? LOW : HIGH); //set dcdc pwm line low/high
-    digitalWrite(PWM_CHG, (CHGact & PCSact) ? LOW : HIGH); //set charger pwm line low/high
+    digitalWrite(PWM_DCDC, (DCDCact & PCSact) ? HIGH:LOW); //LOW : HIGH); //set dcdc pwm line low/high
+    digitalWrite(PWM_CHG, (CHGact & PCSact) ? HIGH:LOW); // LOW : HIGH); //set charger pwm line low/high
     digitalWrite(EVSE_ACT, ACState ? HIGH : LOW); //turn on/off evse
     if(PCSact) 
     {

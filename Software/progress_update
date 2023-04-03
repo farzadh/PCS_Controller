@@ -8,7 +8,16 @@ Observations:
 - It is advised to first enable PCS ('e') and then enable DCDC ('f') within a short time span.
 - There are several errors that show up, but consistent error at the moment is 67-DCDC-LV-Rationality
 
+Strange observation:
+- Original Damien's code uses DCDC and CHARGE enable lines as active-low. However, as soon as I enable PCS, w/o enabling DC/CHG functions, I get following errors: DCDCEnableLineMismatch, CHGENABLELINEMISMATCH. By making them active HIGH, this error goes away!!!!
+   --> update: I was wrong, these lines are actually active-high, hence it's all good now.
 
 AI:
-- Use SavvyCan together with Can DBC database for Tesla Model 3 to decode all messages on IPC CAN and possibly figure out what's wrong with PCS
-- 
+- In progress: Use SavvyCan together with Can DBC database for Tesla Model 3 to decode all messages on IPC CAN and possibly figure out what's wrong with PCS
+- Currently, we are receiving two error messages: 24VCFrontMia, and 107-Unknown. For error 24, we can try testing with a better 12V battery and see if that goes away.
+   --> another option is to try playing with VCFront message, and see if changing values of some parameters make a difference.
+   --> Also you can take a look at some CAN logs that Damien has in his repo, and see if you can find VCFront messages in them
+   --> 
+
+- Find a DBC file that decodes error 0x424. That message provide specific details about what's going on with each error code, including error 0x24
+
